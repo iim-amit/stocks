@@ -17,10 +17,18 @@ const Nav = () => {
           />
         </div>
         <nav className="flex gap-4 items-center">
-          {["Home", "Orders", "Portfolio", "Invest", "Funds"].map((item) => (
-            <Link key={item} href={`/${item.toLowerCase()}`} className="text-gray-600 hover:text-red-500">
-              {item}
+          {[
+            { name: "Home", path: "/" },
+            { name: "Orders", path: "/models/orders" },
+            { name: "Portfolio", path: "/models/portfolio" },
+            { name: "Invest", path: "/models/invest" },
+            { name: "Funds", path: "/models/funds" },
+            { name: "About", path: "/models/about" } // Add this for the About page
+          ].map((item) => (
+            <Link key={item.name} href={item.path} className="text-gray-600 hover:text-red-500">
+              {item.name}
             </Link>
+
           ))}
           <div className="bg-gray-200 px-3 py-1 rounded-full text-gray-800">AK</div>
         </nav>
