@@ -148,11 +148,11 @@ const Head = ()=>{
     const navItems = [
         {
             name: "Stocks",
-            path: "/stocks"
+            path: "/"
         },
         {
             name: "F&O",
-            path: "/fno"
+            path: "/models/f&o"
         },
         {
             name: "Mutual Funds",

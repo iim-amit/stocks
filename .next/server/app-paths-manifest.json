@@ -1,8 +1,8 @@
 {
   "/page": "app/page.js",
+  "/models/orders/page": "app/models/orders/page.js",
   "/_not-found/page": "app/_not-found/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/models/orders/page": "app/models/orders/page.js",
   "/models/about/page": "app/models/about/page.js",
-  "/models/portfolio/page": "app/models/portfolio/page.js"
+  "/models/f&o/page": "app/models/f&o/page.js"
 }

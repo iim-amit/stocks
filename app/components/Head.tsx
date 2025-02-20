@@ -8,8 +8,8 @@ const Head = () => {
   const [activeTab, setActiveTab] = useState("Stocks");
 
   const navItems = [
-    { name: "Stocks", path: "/stocks" },
-    { name: "F&O", path: "/fno" }, // Corrected path
+    { name: "Stocks", path: "/" },
+    { name: "F&O", path: "/models/f&o" }, // Corrected path
     { name: "Mutual Funds", path: "/mutual-funds" },
   ];
 
